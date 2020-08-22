@@ -55,7 +55,8 @@ REST请求地址、请求参数、HTTP响应转换被转换成的对象类型。
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
   </dependency>
-2.修改启动类添加注解
+2.修改yml 改成集群地址
+3.修改启动类添加注解
 @EnableEurekaClient
 
 #### cloud-consumer-order 80
@@ -64,5 +65,7 @@ REST请求地址、请求参数、HTTP响应转换被转换成的对象类型。
              <groupId>org.springframework.cloud</groupId>
              <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
    </dependency>
- 2.修改启动类添加注解
+ 2.修改yml 改成集群地址  
+ 3.修改启动类添加注解
  @EnableEurekaClient
+ 
