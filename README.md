@@ -28,6 +28,10 @@ REST请求地址、请求参数、HTTP响应转换被转换成的对象类型。
 
 ##day02
 - eureka注册中心搭建(单机&集群)
+- payment & order 的部分修改 
+- order 调用 payment的方式修改
+- actuator 微服务信息完善
+
 
 ##### eureka 7001 -单机 &集群
 1.创建module 
