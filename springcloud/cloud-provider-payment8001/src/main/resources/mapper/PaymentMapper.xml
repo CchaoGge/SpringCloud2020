@@ -20,8 +20,8 @@
         select * from payment where id=#{id};
     </select>-->
 
-    <insert id="insPayment"  useGeneratedKeys="true" keyProperty="id">
-        insert into payment(serial)  values(#{serial});
+    <insert id="insPayment">
+        insert into payment(id,serial)  values(DEFAULT,#{serial});
     </insert>
 </mapper>
 

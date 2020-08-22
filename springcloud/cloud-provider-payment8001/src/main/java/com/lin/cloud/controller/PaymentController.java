@@ -25,7 +25,8 @@ public class PaymentController {
      * @return
      */
     @RequestMapping("payment/addPayment")
-    public CommonResult addPayment(@RequestBody Payment payment){
+    public CommonResult addPayment(Payment payment){
+        log.debug("查看传入参数"+payment);
         int result = paymentService.insertPayment(payment);
         log.info("9999>插入结果"+result);
         if (result>0){

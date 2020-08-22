@@ -28,7 +28,6 @@ public class PaymentServiceImpl implements PaymentService {
     @Transactional
     public int insertPayment(Payment payment) {
         return paymentMapper.insPayment(payment);
-
     }
 
     /**
